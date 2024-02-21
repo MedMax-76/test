@@ -15,8 +15,9 @@ h1 {
 }
 
 .nav {
-  padding: 8px 0;
+  /* padding: 8px 0; */
   background-image: url(../src/img/water.png);
+  /* background-color: aqua; */
   background-size: calc(var(--index) * 85);
   background-repeat: repeat-x;
   letter-spacing: normal;
@@ -31,8 +32,8 @@ h1 {
   margin: 0 16px;
 }
 .nav-row-logo-img {
-  width: calc(var(--index) * 12);
-  height: calc(var(--index) * 12);
+  width: calc(var(--index) * 15);
+  height: calc(var(--index) * 15);
 }
 .nav-row-logo-img-hand {
   width: calc(var(--index) * 10);

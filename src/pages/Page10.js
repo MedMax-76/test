@@ -1,4 +1,4 @@
-import logo from "../img/lpgp3_white 1.svg";
+import logo from "../img/logo_3_white 1.svg";
 import { Link } from "react-router-dom";
 import Main from "./Main";
 
