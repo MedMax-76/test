@@ -6,6 +6,16 @@ const Menu = () => {
       <div className="menu">
         <ul className="menu-list">
           <li>
+            <Link to="Logo3White" className="menu-list-item">
+              Logo 3 white
+            </Link>
+          </li>
+          <li>
+            <Link to="Logo3Black" className="menu-list-item">
+              Logo 3 black
+            </Link>
+          </li>
+          <li>
             <Link to="Logo1Gold" className="menu-list-item">
               Logo 1 gold
             </Link>

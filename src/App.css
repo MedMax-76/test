@@ -31,8 +31,8 @@ h1 {
   margin: 0 16px;
 }
 .nav-row-logo-img {
-  width: calc(var(--index) * 10);
-  height: calc(var(--index) * 10);
+  width: calc(var(--index) * 12);
+  height: calc(var(--index) * 12);
 }
 .nav-row-logo-img-hand {
   width: calc(var(--index) * 10);

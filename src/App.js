@@ -12,6 +12,8 @@ import Page5 from "./pages/Page5";
 import Page6 from "./pages/Page6";
 import Page7 from "./pages/Page7";
 import Page8 from "./pages/Page8";
+import Page9 from "./pages/Page9";
+import Page10 from "./pages/Page10";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
             <Route path="/Logo2White" element={<Page6 />} />
             <Route path="/HandBlack" element={<Page7 />} />
             <Route path="/HandWhite" element={<Page8 />} />
+            <Route path="/Logo3Black" element={<Page9 />} />
+            <Route path="/Logo3White" element={<Page10 />} />
           </Routes>
         </BrowserRouter>
       </header>
