@@ -22,6 +22,9 @@ h1 {
   background-repeat: repeat-x;
   letter-spacing: normal;
 }
+.nav-km {
+  background-color: rgb(89, 13, 160);
+}
 .nav-row {
   display: flex;
   justify-content: space-between;
