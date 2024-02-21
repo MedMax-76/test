@@ -1,38 +1,75 @@
-.App {
+:root {
+  --index: calc(1vw + 1vh);
+  min-height: 100vh;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(222, 245, 246);
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+  padding: 8px 0;
+  background-image: url(../src/img/water.png);
+  background-size: calc(var(--index) * 85);
+  background-repeat: repeat-x;
+  letter-spacing: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-row {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  margin: 0 16px;
+}
+.nav-row-logo-img {
+  width: calc(var(--index) * 10);
+  height: calc(var(--index) * 10);
+}
+.nav-row-logo-img-hand {
+  width: calc(var(--index) * 10);
+  height: calc(var(--index) * 4);
 }
 
-.App-link {
-  color: #61dafb;
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  align-items: center;
+  column-gap: 40px;
+  font-weight: 500;
+}
+.nav-list__link {
+  color: rgb(235, 8, 8);
+  transition: opacity 0.2s ease-in;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Back {
+  font-size: calc(var(--index) * 3);
+  color: rgb(46, 7, 244);
+}
+.back-img {
+  width: calc(var(--index) * 6);
+  height: calc(var(--index) * 7);
+}
+.main {
+  margin: 16px;
+  background-color: rgb(222, 245, 246);
+}
+
+.menu {
+  font-weight: 500;
+  font-size: calc(var(--index) * 3);
+}
+.menu-list {
+  list-style-type: none;
+}
+.menu-list-item {
+  text-decoration: none;
+  color: rgb(6, 95, 49);
 }
