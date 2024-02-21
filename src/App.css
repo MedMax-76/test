@@ -23,7 +23,7 @@ h1 {
   letter-spacing: normal;
 }
 .nav-km {
-  background-color: rgb(89, 13, 160);
+  background-color: rgb(8, 163, 174);
 }
 .nav-row {
   display: flex;
@@ -41,6 +41,10 @@ h1 {
 .nav-row-logo-img-hand {
   width: calc(var(--index) * 10);
   height: calc(var(--index) * 4);
+}
+.nav-row-logo-img-km {
+  width: calc(var(--index) * 16);
+  height: calc(var(--index) * 16);
 }
 
 .nav-list {

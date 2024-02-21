@@ -16,6 +16,7 @@ import Page9 from "./pages/Page9";
 import Page10 from "./pages/Page10";
 import Page11 from "./pages/Page11";
 import Page12 from "./pages/Page12";
+import Page13 from "./pages/Page13";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/Logo3White" element={<Page10 />} />
             <Route path="/KM1" element={<Page11 />} />
             <Route path="/KM2" element={<Page12 />} />
+            <Route path="/KM3" element={<Page13 />} />
           </Routes>
         </BrowserRouter>
       </header>
