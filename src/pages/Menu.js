@@ -6,6 +6,16 @@ const Menu = () => {
       <div className="menu">
         <ul className="menu-list">
           <li>
+            <Link to="han" className="menu-list-item">
+              Gold_001
+            </Link>
+          </li>
+          <li>
+            <Link to="hands" className="menu-list-item">
+              Gold_002
+            </Link>
+          </li>
+          <li>
             <Link to="KM3" className="menu-list-item">
               K&M_3
             </Link>
