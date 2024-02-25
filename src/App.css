@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url(./reset.css);
+
 :root {
   --index: calc(1vw + 1vh);
   min-height: 100vh;
@@ -39,8 +41,8 @@ h1 {
   height: calc(var(--index) * 15);
 }
 .nav-row-logo-img-hand {
-  width: calc(var(--index) * 10);
-  height: calc(var(--index) * 4);
+  width: calc(var(--index) * 15);
+  height: calc(var(--index) * 5);
 }
 .nav-row-logo-img-km {
   width: calc(var(--index) * 16);
